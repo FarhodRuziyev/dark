@@ -1,0 +1,16 @@
+
+.oq{
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 88vh;
+  & h1{
+    height: 80%;
+  }
+}
+.yellow{
+  background-color: green;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 88vh;
+  & h1{
+    height: 80%;
+  }
+}

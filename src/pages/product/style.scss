@@ -1,0 +1,51 @@
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    height: 88vh;
+}
+.product{
+    width: 100%;
+    .cardds{
+      padding: 2rem;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 5%; align-items: center;
+      @media(max-width:900px){
+        display: grid; grid-template-columns: 1fr; gap: 5%; align-items: center;
+      }
+      .fon{
+        padding:2rem;
+        background-color: white;
+        border-radius: 5px;
+        & img {
+            width: 60%;
+        }
+      }
+      .text{
+        display: flex;flex-direction: column; row-gap: 10px;
+      }
+      .titlee{
+        color: green;
+      }
+      .categoryy{
+        color: blue;
+      }
+      .pricee{
+        display: flex; justify-content: space-between;
+        color: red;
+      }
+      .icon{
+        display: flex; gap: 5%;
+        & .btnn{
+            padding: 0.3rem 2rem;
+            color: white;
+            background-color: rgba(141, 141, 229, 0.999);
+            border-radius: 3px;
+            border: none;
+            &:hover{
+                background-color: green;
+            }
+        }
+      }
+    }
+  }
+  
+  
